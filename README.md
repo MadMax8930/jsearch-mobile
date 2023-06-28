@@ -1,35 +1,35 @@
-# First React-Native mobile application
+## React-Native first mobile app
 
 Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
 
-## 🚀 Setup:
+### 🚀 Setup:
 
 ```sh
 npx create-expo-app -e with-router
 ```
 
-## Extra dependencies:
+### Extra dependencies:
 
 ```sh
 npm i expo-font axios react-native-dotenv
 ```
 
-## Expo Cli:
+### Helper:
+`Expo Project` App on Google Store
+
+### Expo Cli:
 ```sh
 npm i -g expo-cli 
 ```
 
-## Run application on mobile:
+### Run on mobile:
 
 ```sh
 expo-cli start --tunnel
 ```
 
-## Helper:
-`Expo Project` App on Google Store
-
 ## 📝 Notes:
 
-Best routing Concepts from the web to Native IOS and Android applications
+Best routing Concepts from the web to Native IOS and Android applications <br />
 [Expo Router: Docs](https://expo.github.io/router)
 
