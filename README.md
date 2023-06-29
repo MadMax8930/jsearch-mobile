@@ -22,7 +22,7 @@ npm i expo-font axios react-native-dotenv
 npm i -g expo-cli 
 ```
 
-### Run on mobile:
+### Run Metro Bundler on mobile:
 
 ```sh
 expo-cli start --tunnel
