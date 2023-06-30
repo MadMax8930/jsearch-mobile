@@ -1,6 +1,7 @@
 // common
-import NearbyJobCard from "./common/cards/NearbyJobCard";
 import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
+import NearbyJobCard from "./common/cards/nearbyjob/NearbyJobCard";
+import PopularJobCard from "./common/cards/popularjob/PopularJobCard";
 
 // home screen
 import Welcome from "./home/welcome/Welcome";
@@ -16,13 +17,14 @@ import Specifics from "./jobdetails/specifics/Specifics";
 
 export {
   ScreenHeaderBtn,
+  NearbyJobCard,
+  PopularJobCard,
   Welcome,
-  Nearbyjobs,
   Popularjobs,
+  Nearbyjobs,
   Company,
   JobTabs,
   JobAbout,
   JobFooter,
   Specifics,
-  NearbyJobCard
 };
