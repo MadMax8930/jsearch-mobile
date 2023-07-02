@@ -28,8 +28,11 @@ npm i -g expo-cli
 expo-cli start --tunnel
 ```
 
-## 📝 Notes:
+### 📝 Notes:
 
 Best routing Concepts from the web to Native IOS and Android applications <br />
 [Expo Router: Docs](https://expo.github.io/router)
+
+### API:
+[JSearch](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/)
 
