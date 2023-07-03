@@ -1,4 +1,4 @@
-## 🚀 Job Search `React-Native` mobile app project
+## 🚀 `React-Native` Job Search mobile app project
 under node v18.2.0
 
 Setup:
@@ -23,12 +23,12 @@ To run the Metro Bundler on mobile:
 expo-cli start --tunnel
 ```
 
-Expo has the best routing concepts to Native IOS and Android applications: <br />
-[Expo Router](https://expo.github.io/router) documentation
+Expo Router has the best routing concepts to Native IOS and Android applications:
+[documentation](https://expo.github.io/router)
 
 ### 💎 API:
 
-[JSearch](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/)
+[JSearch](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/) endpoints
 
 ### ✅ Deployment:
 
