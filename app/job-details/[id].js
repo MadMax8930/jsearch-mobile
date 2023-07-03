@@ -21,9 +21,11 @@ const JobDetails = () => {
    displayTabContent = () => {
       switch (activeTab) {
          case "About":
+            return <JobAbout info={data[0].job_description ?? "No data provided"} />
          case "Qualifications":
-            return <Specifics title="Qualifications" points={data[0].job_highlights?.qualifications ?? ['N/A']} />
+            return <Specifics title="Qualifications" points={data[0].job_highlights?.Qualifications ?? ["N/A"]} />
          case "Responsibilities":
+            return <Specifics title="Responsibilities" points={data[0].job_highlights?.Responsibilities ?? ["N/A"]} />
          default:
             break;
       }
@@ -72,6 +74,7 @@ const JobDetails = () => {
                   </View>
                )}
             </ScrollView>
+            <JobFooter url={data[0].job_google_link ?? 'http://careers.google.com/jobs/results'} />
          </>
       </SafeAreaView>
    )
