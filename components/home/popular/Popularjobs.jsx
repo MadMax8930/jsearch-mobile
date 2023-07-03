@@ -12,6 +12,9 @@ const Popularjobs = () => {
    const { data, isLoading, error } = useFetch('search', { query: 'React developer', page: 1, num_pages: 1 });
    // console.log(data);
 
+   const [selectedJob, setSelectedJob] = useState();
+   const handleCardPress = () => {}
+
    return (
       <View style={styles.container}>
          <View style={styles.header}>
@@ -28,9 +31,13 @@ const Popularjobs = () => {
                <Text>Something went wrong</Text>
             ) : (
                <FlatList 
-                  data={data.data}
+                  data={data}
                   renderItem={({ item }) => (
-                     <PopularJobCard item={item} />
+                     <PopularJobCard 
+                        item={item} 
+                        selectedJob={selectedJob}
+                        handleCardPress={handleCardPress}
+                     />
                   )}
                   keyExtractor={item => item?.job_id}
                   horizontal
