@@ -16,7 +16,11 @@ const JobDetails = () => {
    const params = useSearchParams();
    const { data, isLoading, error, refetch } = useFetch('job-details', { job_id: params.id });
    
-   const onRefresh = () => {}
+   const onRefresh = useCallback(() => {
+      setRefreshing(true);
+      refetch();
+      setRefreshing(false);
+   }, []);
 
    displayTabContent = () => {
       switch (activeTab) {
