@@ -1,5 +1,5 @@
-## `React-Native` Job Search mobile app project
-under node v18.2.0
+## `React-Native` Job Search mobile app
+under node v18.2.0 (first react-native project)
 
 ### 🎯 Goals:
 - Build a fully functional home page
@@ -15,7 +15,7 @@ npx create-expo-app -e with-router
 ```
 Extra dependencies:
 ```sh
-npm i expo-font axios react-native-dotenv
+npm i expo-font expo-updates axios react-native-dotenv
 ```
 
 ### 🔥 Expo Cli:
@@ -33,10 +33,8 @@ Expo Router has the best routing concepts to Native IOS and Android applications
 ### 🔑 API:
 [JSearch](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/) endpoints
 
-### 💎 Component Structure & UI:
-![plot](./assets/ui/home-page.png)
-![plot](./assets/ui/job-details1.png)
-![plot](./assets/ui/job-details2.png)
+### 💎 UI:
+![plot](./assets/ui/jsearch-native.png)
 
 ### ✅ Deployment:
 Publish to expo:
@@ -44,5 +42,5 @@ Publish to expo:
 expo publish
 ```
 Open deployed app:
-[SCAN QR CODE]
+[SCAN ON EXPO](https://expo.dev/@madmax8930/jsearch-mobile-app?serviceType=classic&distribution=expo-go)
 
